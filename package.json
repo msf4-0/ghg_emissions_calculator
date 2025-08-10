@@ -1,0 +1,29 @@
+{
+  "name": "ghg-emissions-calculator",
+  "version": "1.0.0",
+  "description": "Comprehensive GHG Protocol compliant emissions calculator web application",
+  "main": "main_app.py",
+  "scripts": {
+    "start": "streamlit run main_app.py",
+    "setup": "python setup_database.py",
+    "deploy-setup": "python deploy_setup.py"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/ghg-emissions-calculator.git"
+  },
+  "keywords": [
+    "ghg",
+    "emissions",
+    "calculator",
+    "sustainability",
+    "carbon",
+    "streamlit",
+    "environmental"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "engines": {
+    "python": ">=3.9.0"
+  }
+}
